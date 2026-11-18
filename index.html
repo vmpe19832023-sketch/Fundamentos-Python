@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <title>Portafolio de Python by Víctor Manuel</title>
     <style>
+        .parraforepisa {            
+            color: black;
+        }
         p {
-            font-family: Arial, sans-serif;
             color: white;
         }
         h1 {
@@ -18,7 +20,7 @@
             color: lightcoral;
         }
         body {
-            font-family: "times new roman", sans-serif;
+            font-family: "times new roman", serif;
             background-color: black;
         }
         .destacado {
@@ -28,7 +30,10 @@
         .repisa {
             font-style: italic;
             color: lightgray;
+            display: flex;
+            gap: 20px;
         }
+        
     </style>
 </head>
 <body>
@@ -40,11 +45,20 @@
         <li>Generar números del 5 al 1.</li>
         <li>Generar una lista de ciudades de la región.</li>
     </ul>
-    <p>¡Vamos por HTML!</p>´
+    <p>¡Vamos por HTML!</p>
     <div class="repisa">
-        <div>Python<p>Es un lenguaje de Programación potente</p></div>
-        <div>Git<p>Es un sistema de control de versiones</p></div>
-        <div>HTML<p>Es un lenguaje de marcado para la web</p></div>
+        <div style="background-color: lightblue; padding: 10px; border-radius: 5px;">
+            <p class="parraforepisa">Python</p>
+            <p class="parraforepisa">Es un lenguaje de Programación potente</p>
+        </div>
+        <div style="background-color: lightgreen; padding: 20px; border-radius: 10px;">
+            <p class="parraforepisa">Git</p>
+            <p class="parraforepisa">Es un sistema de control de versiones</p>
+        </div>
+        <div style="background-color: lightcoral; padding: 30px; border-radius: 15px;">
+            <p class="parraforepisa">HTML</p>
+            <p class="parraforepisa">Es un lenguaje de marcado para la web</p>
+        </div>
     </div>
 </body>
 </html>

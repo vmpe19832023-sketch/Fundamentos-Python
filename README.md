@@ -1,6 +1,6 @@
 # Gestor de Tareas en Consola
 
-Este es un proyecto práctico creado para reforzar los fundamentos de programación en Python. Permite agregar, ver y eliminar tareas directamente desde la terminal.
+Este es un proyecto de aprendizaje de temas básicos de Python, entre ellos uso de etiquetas variables y bucles.
 
 ## Conceptos aplicados
 * **Variables y tipos de datos:** Manejo de textos y números.
@@ -14,5 +14,10 @@ Este es un proyecto práctico creado para reforzar los fundamentos de programaci
 3. Abre tu terminal en la carpeta del proyecto y ejecuta el siguiente comando:
 
 ```bash
-python main.py
+python mi_perfil.py
+python saludo.py
+python contador.py
+python contador_for.py
+python lista.py
+index.html
 ```

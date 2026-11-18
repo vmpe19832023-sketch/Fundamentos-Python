@@ -1,4 +1,4 @@
-# Gestor de Tareas en Consola
+# Fundamentos de Python
 
 Este es un proyecto de aprendizaje de temas básicos de Python, entre ellos uso de etiquetas variables y bucles.
 
